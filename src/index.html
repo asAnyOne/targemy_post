@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicons/favicon-16x16.png"
+    />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>User post</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar__row">
+            <div class="main__logo">
+              <img
+                src="assets/images/logo/Target_big.svg"
+                alt="logo"
+                class="main__logo-img"
+              />
+              <div class="main__logo-text">Таргеми</div>
+            </div>
+            <div class="search__panel">
+              <img
+                src="assets/images/icons/icon_search.svg"
+                alt="search__panel-icon"
+                class="search__panel-icon"
+              />
+              <input
+                type="text"
+                class="search__panel-input"
+                placeholder="Искать посты"
+              />
+            </div>
+            <div class="user__part">
+              <div class="user__part-alert">
+                <img
+                  src="assets/images/icons/Group 23.svg"
+                  alt="alert-icon"
+                  class="alert-icon"
+                />
+              </div>
+              <div class="user__part-addpost">
+                <img
+                  src="assets/images/icons/icon_add.svg"
+                  alt="icon_add"
+                  class="addpost-icon"
+                />
+                <div class="addpost-text">Создать</div>
+              </div>
+              <div class="user__part-user_profile">
+                <img
+                  src="assets/images/user_avatar copy 10.jpg"
+                  alt=""
+                  class="user_profile-img"
+                />
+                <div class="user_profile-nikname">Frank</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="main__row">
+          <nav class="left__sidebar">
+            <div class="user__info">
+              <img
+                src="assets/images/user_avatar copy 10.jpg"
+                alt="userimg"
+                class="user__info-img"
+              />
+              <div>
+                <div class="user__info-title">Frank Boehn</div>
+                <div class="user__info-text">профиль</div>
+              </div>
+            </div>
+            <ul class="user__nav">
+              <li class="user__nav-items">
+                <img
+                  src="assets/images/icons/My Feed.svg"
+                  alt="Feed"
+                  class="user__nav-icons"
+                />
+                <div class="user__nav-title">Лента</div>
+              </li>
+              <li class="user__nav-items">
+                <img
+                  src="assets/images/icons/Trends.svg"
+                  alt="Trends"
+                  class="user__nav-icons"
+                />
+                <div class="user__nav-title">Тренды</div>
+              </li>
+              <li class="user__nav-items">
+                <img
+                  src="assets/images/icons/icon_bookmark.svg"
+                  alt="icon_bookmark"
+                  class="user__nav-icons"
+                />
+                <div class="user__nav-title">Закладки</div>
+              </li>
+              <br /><br />
+              <li class="user__nav-items">
+                <img
+                  src="assets/images/icons/New Post.svg"
+                  alt="post"
+                  class="user__nav-icons"
+                />
+                <div class="user__nav-title">Создать пост</div>
+              </li>
+              <li class="user__nav-items">
+                <img
+                  src="assets/images/icons/false.svg"
+                  alt=""
+                  class="user__nav-icons"
+                />
+                <div class="user__nav-title">Уведомления</div>
+              </li>
+              <li class="user__nav-items">
+                <img
+                  src="assets/images/icons/My cards.svg"
+                  alt="cards"
+                  class="user__nav-icons"
+                />
+                <div class="user__nav-title">Мои карточки</div>
+              </li>
+            </ul>
+          </nav>
+          <div class="post">
+            <img src="assets/images/img copy.jpg" alt="" class="post-img" />
+            <!-- <div class="post__author">
+              <div class="post__author-header">
+                <div>
+                  <img
+                    src="assets/images/Oval Copy 2.jpg"
+                    alt="author"
+                    class="post__author-img"
+                  />
+                  <div class="post__author-title">
+                    <div class="post__author-name">Benedita Tavares</div>
+                    <div class="post__author-followers">785 followers</div>
+                  </div>
+                </div>
+
+                <div class="post__author-menu">
+                  <img src="assets/images/icons/menu copy 3.svg" />
+                </div>
+              </div>
+              <div class="post__edit">
+                <div class="post__edit-info">
+                  <div class="post__info-text">2 дня назад</div>
+                  <div class="post__info-text">4 мин на чтение</div>
+                </div>
+                <button class="post__edit-btn">редактировать</button>
+              </div>
+            </div>
+            <div class="post__title">
+              At vero eos et voluptatem appeteqre eaque gaudere ut aut quid
+            </div>
+            <div class="post__text">
+              Epicurus in armatum hostem impetum fecisse aut inte rrogari ut
+              placet, inquam tum dicere exorsus est consecutus? laudem et inter
+              argumentum conclusionemque rationis et accusamus et quasi involuta
+              aperiri, altera occulta quaedam et fortibus viris commemorandis
+              eorumque factis non possim accommodare torquatos nostros? quos tu
+              paulo. <br /><br />
+              Epicurus in armatum hostem impetum fecisse aut interrogari ut
+              placet, inquam tum dicere exorsus est consecutus? laudem et inter
+              argumentum conclusionemque rationis et accusamus et quasi involuta
+              aperiri, altera occulta quaedam et fortibus viris commemorandis
+              eorumque factis non possim accommodare torquatos nostros? quos tu
+              paulo.
+            </div>
+            <div class="post__actions">
+              <div class="post__like">
+                <svg
+                  width="23"
+                  height="22"
+                  viewBox="0 0 23 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.5 18.7H0V9.9H6.5V18.7ZM22.9732 10.2263C22.9024 9.61869 22.4234 8.20119 20.8219 8.26719C19.7114 8.31302 17.6043 8.679 16.417 8.04925C17.2363 4.69792 17.0391 0 14.8905 0C13.449 0 13.1759 1.65642 12.7428 3.17992C11.6386 7.06842 9.74772 8.6955 7.6 9.49117V19.4627C11.5627 20.1053 13.3378 22 17.0997 22C19.9917 22 21.1954 20.347 21.5282 19.6736C21.8611 19.0001 21.9898 18.4719 22.2079 17.4931C22.5842 15.8045 22.9481 12.8006 22.9732 12.2243C22.9905 11.8259 23.0041 11.3461 22.9989 10.9641C22.9948 10.6657 22.9989 10.4472 22.9732 10.2263Z"
+                    fill="#fff"
+                  />
+                </svg>
+
+                <div class="post__like-count">0</div>
+              </div>
+              <div class="post__comments">
+                <svg
+                  width="23"
+                  height="22"
+                  viewBox="0 0 23 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M2.875 0H20.125C21.7107 0 23 1.23313 23 2.74984V15.1241C23 16.6408 21.7107 17.874 20.125 17.874H13.6562L8.04551 21.8999C7.69062 22.1491 7.1875 21.9042 7.1875 21.4831V17.874H2.875C1.28926 17.874 0 16.6408 0 15.1241V2.74984C0 1.23313 1.28926 0 2.875 0ZM4.23684 12.2222C5.23968 12.2222 6.05263 11.4014 6.05263 10.3889C6.05263 9.37637 5.23968 8.55556 4.23684 8.55556C3.23401 8.55556 2.42105 9.37637 2.42105 10.3889C2.42105 11.4014 3.23401 12.2222 4.23684 12.2222ZM13.3158 10.3889C13.3158 11.4014 12.5028 12.2222 11.5 12.2222C10.4972 12.2222 9.68421 11.4014 9.68421 10.3889C9.68421 9.37637 10.4972 8.55556 11.5 8.55556C12.5028 8.55556 13.3158 9.37637 13.3158 10.3889ZM18.7632 12.2222C19.766 12.2222 20.5789 11.4014 20.5789 10.3889C20.5789 9.37637 19.766 8.55556 18.7632 8.55556C17.7603 8.55556 16.9474 9.37637 16.9474 10.3889C16.9474 11.4014 17.7603 12.2222 18.7632 12.2222Z"
+                    fill="url(#paint0_linear_9_750)"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_9_750"
+                      x1="22.5575"
+                      y1="0.21165"
+                      x2="0"
+                      y2="0.21165"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#F5F4FF" />
+                      <stop offset="1" stop-color="#D2E7FF" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <div class="post__comments-count">0</div>
+              </div>
+              <div class="post__forward">
+                <svg
+                  width="23"
+                  height="22"
+                  viewBox="0 0 23 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    id="share_normal"
+                    d="M22.6208 9.38428L15.3575 16.5758C14.5919 17.3339 13.3158 16.7718 13.3158 15.6531V11.8473C6.02363 11.8986 2.94733 13.7043 5.00477 20.9093C5.23089 21.7011 4.35684 22.3142 3.7435 21.8257C1.77806 20.2604 0 17.2662 0 14.2439C0 6.63185 5.93153 5.1213 13.3158 5.07836V1.26988C13.3158 0.150098 14.5927 -0.410161 15.3575 0.347146L22.6208 7.53882C23.1262 8.03926 23.1266 8.88341 22.6208 9.38428Z"
+                    fill="url(#paint0_linear_9_747)"
+                  />
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_9_747"
+                      x1="22.5575"
+                      y1="0.21165"
+                      x2="0"
+                      y2="0.21165"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#F5F4FF" />
+                      <stop offset="1" stop-color="#D2E7FF" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+
+                <div class="post__forward-count">0</div>
+              </div>
+            </div> -->
+          </div>
+          <div class="right__sidebar">
+            <div class="comment__block">
+              <div class="comment__block-index">
+                <img
+                  src="assets/images/icons/discussion.svg"
+                  alt="discussion"
+                  class="comment__block-icon"
+                />
+                <div class="comment__block-text">28 комментариев</div>
+              </div>
+              <div class="comment__block-adding">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="comment__block-input"
+                  placeholder="Написать комментарий"
+                />
+              </div>
+              <div class="comment__block-cards">
+                <!-- <div class="comment__card">
+                  <div class="comment__card-header">
+                    <img
+                      src="assets/images/user_avatar copy 10.jpg"
+                      alt="user"
+                      class="comment__card-img"
+                    />
+                    <div class="comment__card-title">
+                      <div class="comment__card-username">Frank Boehm</div>
+                      <div class="comment__card-time">2 minutes ago</div>
+                    </div>
+                    <div class="comment__card-menu">
+                      <img src="assets/images/icons/menu copy 3.svg" />
+                    </div>
+                  </div>
+                  <div class="comment__card-text">
+                    Probabo, inquit, sic agam, ut dolore magnam aliquam causam
+                    non numquam eius modi tempora incidunt, ut de homine
+                    sensibus reliqui nihil molestiae non numquam eius modi
+                    tempora incidunt, ut calere ignem, nivem esse ratione neque
+                    porro quisquam est, quid et dolore disputandum putant sed
+                    ut.
+                  </div>
+                </div> -->
+              </div>
+              <div class="comment__block-more">Показать еще</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="post__cards">
+      <div class="container">
+        <div class="post__cards-title"></div>
+        <div class="post__cards-row">
+          <div class="post__cards-card post__card">
+            <div class="post__card-author">
+              <img src="" alt="" />
+              <div>
+                <p></p>
+                <p></p>
+              </div>
+            </div>
+            <div class="post__card-items">
+              <div class="post__card-posttime"></div>
+              <div>
+                <div class="post__card-aim"></div>
+                <div class="post__card-title"></div>
+              </div>
+              <div class="post__card-description"></div>
+              <div class="post__card-footer">
+                <div class="post__card-followers">
+                  <img src="" alt="" />
+                </div>
+                <div class="post__card-actions">
+                  <div class="post__card-like">
+                    <img src="" alt="" />
+                    <div></div>
+                  </div>
+                  <div class="post__card-comments">
+                    <img src="" alt="" />
+                    <div></div>
+                  </div>
+                  <div class="post__card-forwards">
+                    <img src="" alt="" />
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal-->
+    <div class="popup" data-modal>
+      <div class="popup_dialog">
+        <div class="popup_content">
+          <div class="popup_form">
+            <form class="form" action="#">
+              <div class="popup_header">
+                <img
+                  src="assets/images/icons/icon_collection.svg"
+                  alt="collaction"
+                />
+                <h2>Авторизация</h2>
+                <img
+                  src="assets/images/icons/close_button.svg"
+                  alt="closeIcon"
+                  class="popup_close"
+                />
+              </div>
+
+              <label for="login">Логин:</label>
+              <input
+                id="login"
+                name="email"
+                required
+                type="email"
+                placeholder="Email"
+              />
+              <label for="password">Пароль:</label>
+              <input
+                id="password"
+                name="password"
+                required
+                type="password"
+                placeholder="Пароль"
+              />
+              <button name="submit" type="submit">Войти</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container"></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
